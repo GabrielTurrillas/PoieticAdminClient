@@ -28,7 +28,7 @@ const PatientList = () => {
       <PatientListUl>
         {currentPatients && currentPatients.map((currentPatient) => (
           <PatientLi key={currentPatient.id}>
-            <ListNombre to='#!' onClick={() => dispatch(sendInfo(currentPatient))}>
+            <ListNombre  onClick={() => dispatch(sendInfo(currentPatient))}>
               {currentPatient.nombre} {currentPatient.apellidoPaterno}
             </ListNombre>
           </PatientLi>

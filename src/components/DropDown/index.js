@@ -16,7 +16,7 @@ const DropDown = ({therapists}) => {
         {therapists && therapists.map(therapist => {
           const id = therapist.id
           return(
-            <DDLi onClick={(e) => handleClick(id, e)}><DDLink to='#!'>{therapist.nombre} {therapist.apellidoPaterno}</DDLink></DDLi>
+            <DDLi onClick={(e) => handleClick(id, e)}><DDLink>{therapist.nombre} {therapist.apellidoPaterno}</DDLink></DDLi>
           )
         })}
       </DDUl>

@@ -1,7 +1,8 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
-export const ReferralLink = styled(Link)`
+export const ReferralLink = styled.button`
+  border: none;
+  background: none;
   margin-top:20px;
   margin-left: 20px;
   max-height:40px;

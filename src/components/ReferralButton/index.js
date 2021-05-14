@@ -33,7 +33,7 @@ const ReferralButton = () => {
   
   return (
     <>
-      <ReferralLink to='#!' onClick={() => onSubmit()}>DERIVAR</ReferralLink>
+      <ReferralLink onClick={() => onSubmit()}>DERIVAR</ReferralLink>
     </>
   )
 }

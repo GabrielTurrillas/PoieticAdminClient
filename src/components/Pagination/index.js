@@ -19,7 +19,7 @@ const Pagination = () => {
         <UlPagination>
           {pageNumbers.map(number => (
             <LiPagination key={number} onClick={() => paginate(number)}>
-              <LinkPagination to='#!'>
+              <LinkPagination>
                 {number}
               </LinkPagination>
             </LiPagination>

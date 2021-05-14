@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
 export const PatientListContainer = styled.div`
   height: 100%;
@@ -19,7 +18,10 @@ export const PatientLi = styled.li`
   }
 `
 
-export const ListNombre = styled(Link)`
+export const ListNombre = styled.button`
+  background: none;
+  border: none;
+  display:flex;
   font-family: 'Didact Gothic', sans-serif;
   color:#000;
   font-size: 20px;
@@ -55,7 +57,7 @@ export const ListNombre = styled(Link)`
       border-radius:50px;
       cursor: pointer;
       width:100%;
-  }
+    }
   }
 
 `
