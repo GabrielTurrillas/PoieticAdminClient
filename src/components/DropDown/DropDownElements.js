@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
 `
-export const DDButton = styled(Link)`
+export const DDButton = styled.button`
+  border: none;
   margin-left:20px; 
   margin-top:20px; 
   padding:10px 30px;
@@ -56,7 +56,10 @@ export const DDLi = styled.li`
   }
 `
 
-export const DDLink = styled(Link)`
+export const DDLink = styled.button`
+  text-decoration: none;
+  background: none;
+  border: none;
   color: black;
   text-decoration: none;
 `

@@ -31,7 +31,7 @@ const PatientInfo = () => {
   return (
     <PatientInfoContainer>
       <WrapperPatientInfo>  
-        <PatientInfoTitle>Profecional</PatientInfoTitle>
+        <PatientInfoTitle>Profesional</PatientInfoTitle>
         <PatientInfoSpan>{terapeutaDePaciente(therapies, patient.id, therapists)}</PatientInfoSpan>
       </WrapperPatientInfo>
       <WrapperPatientInfo>

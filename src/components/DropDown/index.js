@@ -11,7 +11,7 @@ const DropDown = ({therapists}) => {
   }
   return (
     <Container>
-      <DDButton to='#!'>SELECCIONA PROFESIONAL</DDButton>
+      <DDButton>SELECCIONA PROFESIONAL</DDButton>
       <DDUl>
         {therapists && therapists.map(therapist => {
           const id = therapist.id

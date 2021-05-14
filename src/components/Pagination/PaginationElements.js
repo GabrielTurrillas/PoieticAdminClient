@@ -18,8 +18,10 @@ export const LiPagination = styled.li`
     cursor: pointer;
   }
 `
-export const LinkPagination = styled(Link)`
+export const LinkPagination = styled.button`
   text-decoration:none;
+  border: none;
+  background: none;
 `
 
 export const PaginationBubble = styled.div`
